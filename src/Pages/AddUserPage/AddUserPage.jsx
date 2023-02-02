@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
-import { addAction, deleteAction } from 'redux/users/usersActions';
+import { addAction } from 'redux/users/usersActions';
 
 export const AddUserPage = () => {
   const [name, setName] = useState('');
